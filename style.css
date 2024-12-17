@@ -1,0 +1,33 @@
+.clock-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 100%;
+    margin:220px auto;
+    background-color: #de3030;
+    box-shadow:0px 20px 30px rgba(0, 0, 0, 0.2) ;
+}
+
+.clock {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clock-container:hover {
+    background-color: #007bff;
+    color: #e54444;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+}
+
+body {
+    background-size: cover;
+    background: radial-gradient(circle at center, #b0e3b0, #40d690);
+      
+}
